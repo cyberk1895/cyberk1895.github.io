@@ -1,0 +1,28 @@
+name: Tech Docs Blog
+title: Tech Docs Blog
+description: 技术文档、代码笔记和工程实践记录
+
+url: ""
+baseurl: ""
+permalink: /:title/
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+
+sass:
+  style: :expanded
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - jekyll.out.log
+  - jekyll.err.log

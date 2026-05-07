@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>
+    {% include meta.html %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.baseurl }}/feed.xml">
+    <script>
+      window.MathJax = {
+        tex: {
+          inlineMath: [["$", "$"], ["\\(", "\\)"]],
+          displayMath: [["$$", "$$"], ["\\[", "\\]"]]
+        }
+      };
+    </script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+  </head>
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <div class="site-info">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <p class="site-description">{{ site.description }}</p>
+          </div>
+          <nav aria-label="主导航">
+            <a href="{{ site.baseurl }}/">首页</a>
+            <a href="{{ site.baseurl }}/blog/">文章</a>
+            <a href="{{ site.baseurl }}/about/">关于</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <main id="main" class="container">
+      {{ content }}
+    </main>
+  </body>
+</html>

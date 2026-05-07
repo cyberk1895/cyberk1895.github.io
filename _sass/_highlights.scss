@@ -1,0 +1,49 @@
+.highlight {
+  background: #f8fafc;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  margin: 20px 0;
+  overflow-x: auto;
+  padding: 14px 16px;
+}
+
+.highlight pre {
+  margin: 0;
+}
+
+.highlight .c,
+.highlight .cm,
+.highlight .c1 {
+  color: #64748b;
+}
+
+.highlight .k,
+.highlight .kd,
+.highlight .kn,
+.highlight .kr {
+  color: #7c3aed;
+}
+
+.highlight .s,
+.highlight .s1,
+.highlight .s2,
+.highlight .sh {
+  color: #047857;
+}
+
+.highlight .m,
+.highlight .mi,
+.highlight .mf {
+  color: #b45309;
+}
+
+.highlight .nf,
+.highlight .nc,
+.highlight .nt {
+  color: #2563eb;
+}
+
+.highlight .o,
+.highlight .p {
+  color: #475569;
+}
