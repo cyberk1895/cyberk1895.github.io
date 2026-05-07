@@ -4,7 +4,7 @@ title: 关于
 permalink: /about/
 ---
 
-这是一个基于 Jekyll 和 GitHub Pages 的技术博客，适合用 Markdown 写技术类和代码类文档。
+这是一个基于 Jekyll 和 GitHub Pages 的技术博客，适合用 Markdown 写技术类和代码类文章。
 
 文章放在 `_posts` 目录，文件名遵循 `YYYY-MM-DD-title.md`，并在文件开头写 front matter：
 
