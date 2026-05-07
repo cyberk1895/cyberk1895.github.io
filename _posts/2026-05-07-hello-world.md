@@ -4,7 +4,7 @@ title: "Hello World！"
 tags: [Blog, Jekyll, Notes, Markdown]
 ---
 
-Hello World！这是我的第一篇文章，后续将分享代码、科研、工程是和读书笔记等内容
+Hello World！这是我的第一篇文章，后续将分享代码、科研、工程和读书笔记等内容
 
 ## 代码块
 
@@ -84,4 +84,4 @@ $$
 
 
 
-本地预览确认无误后，再提交到 GitHub Pages 仓库。
+本地预览确认无误后，再提交到 GitHub 仓库。
